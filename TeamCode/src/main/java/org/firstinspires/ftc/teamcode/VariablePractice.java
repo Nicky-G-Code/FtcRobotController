@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 @TeleOp
-//@Disabled
+@Disabled
 public class VariablePractice extends OpMode {
 
     @Override
@@ -20,7 +20,7 @@ public class VariablePractice extends OpMode {
         telemetry.addData("Team Number",teamNumber);
         telemetry.addData("Motor Speed", motorSpeed);
         telemetry.addData("Claw State", clawClosed);
-        telemetry.addData("Motor Angle",motorAngle)
+        telemetry.addData("Motor Angle",motorAngle);
     }
 
     @Override
