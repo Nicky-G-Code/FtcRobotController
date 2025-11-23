@@ -1,15 +1,13 @@
-package org.firstinspires.ftc.teamcode;
-
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
+package org.firstinspires.ftc.teamcode.OpModes;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 @TeleOp
-@Disabled
-public class HelloWorld extends OpMode {
+public class Decode extends OpMode {
+
     @Override
     public void init() {
-        telemetry.addData("Hello", "World");
+
     }
 
     @Override
